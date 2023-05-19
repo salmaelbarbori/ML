@@ -1,0 +1,4 @@
+When exploring data:
+- In order to pass the data to the model to train on it. it needed to be null-values free, to fill the missing values we may use *Imputation* which means filling the missing values with either the mean or mode or median.
+- In order to pass data to our model it needs to be numerical data, so if we have qualitative data we need to do *Encoding* to give it numerical values.
+- If more than half of the data is missing, it would be better to drop the data instead of imputing it.
